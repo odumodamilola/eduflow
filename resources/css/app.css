@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.status-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.status-icon {
+    margin-right: 0.5rem;
+}
+/*classes for toggling the positions */
+.nav-expanded {
+    justify-content: space-between;
+}
+
+.nav-collapsed {
+    justify-content: flex-start;
+}
+
+
+
+
